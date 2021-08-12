@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.dom {
+    color: rgba(21, 190, 21, 0.459);
+}
+
+.title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+body {
+    background: rgb(216, 216, 216);
+}
+
+.allBox {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.allBox .inBox1 {
+    width: 250px;
+    border-right: 1px solid rgba(0, 0, 0, 0.116);
+    padding-right: 20px;
+}
+
+.allBox .inBox1 .btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    border-radius: 5px;
+    background: rgba(21, 190, 21, 0.459);
+}
+
+.allBox .inBox2 {
+    /* border:1px solid blue; */
+    width: 100%;
+}
+
+.allBox .inBox2 .personAndWealthTitleBox {
+    /* border: 1px solid blue; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.allBox .inBox2 .personAndWealthTitleBox .personTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.allBox .inBox2 .personAndWealthTitleBox .wealthTitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.allBox .inBox2 .personAndWealthBox{ 
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.allBox .inBox2 .personAndWealthBox .pwBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.allBox .inBox2 .personAndWealthBox .pwBox .person {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.allBox .inBox2 .personAndWealthBox .pwBox .wealth {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.result {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+    background: linear-gradient(to Bottom,  rgba(0, 0, 0, 0) 30%, rgba(21, 190, 21, 0.459));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.result .totalWealth {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.result .wealthResult {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
