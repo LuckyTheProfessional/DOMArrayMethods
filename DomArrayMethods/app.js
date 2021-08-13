@@ -153,4 +153,4 @@ for (i = 0; i < 3; i++) {
 }
 // On restart END
 
-
+console.log('lmao buraz');
